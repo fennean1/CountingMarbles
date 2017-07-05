@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C07DCC41F07344800E2EBA2 /* BallFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C07DCC31F07344800E2EBA2 /* BallFlower.png */; };
+		1C07DCC61F07346100E2EBA2 /* ColorBeadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C07DCC51F07346100E2EBA2 /* ColorBeadIcon.png */; };
+		1C07DCC81F07EF1000E2EBA2 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C07DCC71F07EF1000E2EBA2 /* HelpView.swift */; };
+		1C07DCCA1F07F67C00E2EBA2 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C07DCC91F07F67C00E2EBA2 /* Convenience.swift */; };
+		1C07DCCC1F07F7E400E2EBA2 /* HelpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C07DCCB1F07F7E400E2EBA2 /* HelpButton.png */; };
+		1C07DCCE1F07F9AD00E2EBA2 /* HelpScene.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C07DCCD1F07F9AD00E2EBA2 /* HelpScene.png */; };
 		1C71B9FD1F00976900577C9F /* PinkThumbPrint.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C71B9F71F00976900577C9F /* PinkThumbPrint.png */; };
 		1C71B9FE1F00976900577C9F /* OrangeThumbPrint.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C71B9F81F00976900577C9F /* OrangeThumbPrint.png */; };
 		1C71B9FF1F00976900577C9F /* PurpleThumbPrint.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C71B9F91F00976900577C9F /* PurpleThumbPrint.png */; };
@@ -53,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C07DCC31F07344800E2EBA2 /* BallFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BallFlower.png; sourceTree = "<group>"; };
+		1C07DCC51F07346100E2EBA2 /* ColorBeadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorBeadIcon.png; sourceTree = "<group>"; };
+		1C07DCC71F07EF1000E2EBA2 /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		1C07DCC91F07F67C00E2EBA2 /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		1C07DCCB1F07F7E400E2EBA2 /* HelpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelpButton.png; sourceTree = "<group>"; };
+		1C07DCCD1F07F9AD00E2EBA2 /* HelpScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelpScene.png; sourceTree = "<group>"; };
 		1C71B9F71F00976900577C9F /* PinkThumbPrint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkThumbPrint.png; sourceTree = "<group>"; };
 		1C71B9F81F00976900577C9F /* OrangeThumbPrint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeThumbPrint.png; sourceTree = "<group>"; };
 		1C71B9F91F00976900577C9F /* PurpleThumbPrint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleThumbPrint.png; sourceTree = "<group>"; };
@@ -70,7 +82,7 @@
 		1CACE2EB1EA6E9F600CD7F23 /* BlueRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueRing.png; sourceTree = "<group>"; };
 		1CACE2EC1EA6E9F600CD7F23 /* OrangeBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeBall.png; sourceTree = "<group>"; };
 		1CACE2F11EA7BE0F00CD7F23 /* Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
-		1CE730B31EA51855008083B4 /* Obsolecense Management Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obsolecense Management Plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE730B31EA51855008083B4 /* Counting Marbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counting Marbles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE730B61EA51855008083B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CE730B81EA51855008083B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CE730BB1EA51855008083B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,10 +90,10 @@
 		1CE730C01EA51855008083B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE730C31EA51855008083B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE730C51EA51855008083B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CE730CA1EA51855008083B4 /* Obsolecense Management PlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obsolecense Management PlanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE730CA1EA51855008083B4 /* Counting MarblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counting MarblesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE730CE1EA51855008083B4 /* Obsolecense_Management_PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obsolecense_Management_PlanTests.swift; sourceTree = "<group>"; };
 		1CE730D01EA51855008083B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CE730D51EA51855008083B4 /* Obsolecense Management PlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obsolecense Management PlanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE730D51EA51855008083B4 /* Counting MarblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Counting MarblesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE730D91EA51855008083B4 /* Obsolecense_Management_PlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obsolecense_Management_PlanUITests.swift; sourceTree = "<group>"; };
 		1CE730DB1EA51855008083B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CFC89281F03E9E90095BAEF /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
@@ -115,11 +127,15 @@
 		1CACE2F01EA6E9FC00CD7F23 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1C07DCC31F07344800E2EBA2 /* BallFlower.png */,
 				1C71B9F71F00976900577C9F /* PinkThumbPrint.png */,
 				1C71B9F81F00976900577C9F /* OrangeThumbPrint.png */,
 				1C71B9F91F00976900577C9F /* PurpleThumbPrint.png */,
+				1C07DCCB1F07F7E400E2EBA2 /* HelpButton.png */,
+				1C07DCCD1F07F9AD00E2EBA2 /* HelpScene.png */,
 				1C71B9FA1F00976900577C9F /* BlueThumbPrint.png */,
 				1C71B9FB1F00976900577C9F /* GreenThumbPrint.png */,
+				1C07DCC51F07346100E2EBA2 /* ColorBeadIcon.png */,
 				1C71B9FC1F00976900577C9F /* RedThumbPrint.png */,
 				1C8771441EFE833800DE0F89 /* GreenBall.png */,
 				1CACE2EA1EA6E9F600CD7F23 /* BlueBall.png */,
@@ -145,9 +161,9 @@
 		1CE730B41EA51855008083B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CE730B31EA51855008083B4 /* Obsolecense Management Plan.app */,
-				1CE730CA1EA51855008083B4 /* Obsolecense Management PlanTests.xctest */,
-				1CE730D51EA51855008083B4 /* Obsolecense Management PlanUITests.xctest */,
+				1CE730B31EA51855008083B4 /* Counting Marbles.app */,
+				1CE730CA1EA51855008083B4 /* Counting MarblesTests.xctest */,
+				1CE730D51EA51855008083B4 /* Counting MarblesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,7 +175,9 @@
 				1CE730B81EA51855008083B4 /* ViewController.swift */,
 				1CFC89281F03E9E90095BAEF /* Styles.swift */,
 				1CACE2F11EA7BE0F00CD7F23 /* Methods.swift */,
+				1C07DCC91F07F67C00E2EBA2 /* Convenience.swift */,
 				1CACE2E61EA6E76E00CD7F23 /* NumberShape.swift */,
+				1C07DCC71F07EF1000E2EBA2 /* HelpView.swift */,
 				1CACE2E81EA6E86600CD7F23 /* Model.swift */,
 				1CE730BA1EA51855008083B4 /* Main.storyboard */,
 				1C71BA031F00980700577C9F /* ColorPicker.swift */,
@@ -193,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CE730B21EA51855008083B4 /* Obsolecense Management Plan */ = {
+		1CE730B21EA51855008083B4 /* Counting Marbles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE730DE1EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management Plan" */;
+			buildConfigurationList = 1CE730DE1EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting Marbles" */;
 			buildPhases = (
 				1CE730AF1EA51855008083B4 /* Sources */,
 				1CE730B01EA51855008083B4 /* Frameworks */,
@@ -205,14 +223,14 @@
 			);
 			dependencies = (
 			);
-			name = "Obsolecense Management Plan";
+			name = "Counting Marbles";
 			productName = "Obsolecense Management Plan";
-			productReference = 1CE730B31EA51855008083B4 /* Obsolecense Management Plan.app */;
+			productReference = 1CE730B31EA51855008083B4 /* Counting Marbles.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1CE730C91EA51855008083B4 /* Obsolecense Management PlanTests */ = {
+		1CE730C91EA51855008083B4 /* Counting MarblesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE730E11EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management PlanTests" */;
+			buildConfigurationList = 1CE730E11EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting MarblesTests" */;
 			buildPhases = (
 				1CE730C61EA51855008083B4 /* Sources */,
 				1CE730C71EA51855008083B4 /* Frameworks */,
@@ -223,14 +241,14 @@
 			dependencies = (
 				1CE730CC1EA51855008083B4 /* PBXTargetDependency */,
 			);
-			name = "Obsolecense Management PlanTests";
+			name = "Counting MarblesTests";
 			productName = "Obsolecense Management PlanTests";
-			productReference = 1CE730CA1EA51855008083B4 /* Obsolecense Management PlanTests.xctest */;
+			productReference = 1CE730CA1EA51855008083B4 /* Counting MarblesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1CE730D41EA51855008083B4 /* Obsolecense Management PlanUITests */ = {
+		1CE730D41EA51855008083B4 /* Counting MarblesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE730E41EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management PlanUITests" */;
+			buildConfigurationList = 1CE730E41EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting MarblesUITests" */;
 			buildPhases = (
 				1CE730D11EA51855008083B4 /* Sources */,
 				1CE730D21EA51855008083B4 /* Frameworks */,
@@ -241,9 +259,9 @@
 			dependencies = (
 				1CE730D71EA51855008083B4 /* PBXTargetDependency */,
 			);
-			name = "Obsolecense Management PlanUITests";
+			name = "Counting MarblesUITests";
 			productName = "Obsolecense Management PlanUITests";
-			productReference = 1CE730D51EA51855008083B4 /* Obsolecense Management PlanUITests.xctest */;
+			productReference = 1CE730D51EA51855008083B4 /* Counting MarblesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +291,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CE730AE1EA51855008083B4 /* Build configuration list for PBXProject "Obsolecense Management Plan" */;
+			buildConfigurationList = 1CE730AE1EA51855008083B4 /* Build configuration list for PBXProject "Counting Marbles" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,9 +304,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CE730B21EA51855008083B4 /* Obsolecense Management Plan */,
-				1CE730C91EA51855008083B4 /* Obsolecense Management PlanTests */,
-				1CE730D41EA51855008083B4 /* Obsolecense Management PlanUITests */,
+				1CE730B21EA51855008083B4 /* Counting Marbles */,
+				1CE730C91EA51855008083B4 /* Counting MarblesTests */,
+				1CE730D41EA51855008083B4 /* Counting MarblesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,6 +320,7 @@
 				1C71B9FF1F00976900577C9F /* PurpleThumbPrint.png in Resources */,
 				1CE730C41EA51855008083B4 /* LaunchScreen.storyboard in Resources */,
 				1C87714B1EFE834F00DE0F89 /* RedBall.png in Resources */,
+				1C07DCC61F07346100E2EBA2 /* ColorBeadIcon.png in Resources */,
 				1CE730C11EA51855008083B4 /* Assets.xcassets in Resources */,
 				1C71B9FE1F00976900577C9F /* OrangeThumbPrint.png in Resources */,
 				1CACE2ED1EA6E9F600CD7F23 /* BlueBall.png in Resources */,
@@ -311,9 +330,12 @@
 				1CACE2EE1EA6E9F600CD7F23 /* BlueRing.png in Resources */,
 				1C71BA011F00976900577C9F /* GreenThumbPrint.png in Resources */,
 				1C71BA021F00976900577C9F /* RedThumbPrint.png in Resources */,
+				1C07DCCC1F07F7E400E2EBA2 /* HelpButton.png in Resources */,
 				1C8771451EFE833800DE0F89 /* GreenBall.png in Resources */,
 				1C71BA001F00976900577C9F /* BlueThumbPrint.png in Resources */,
 				1C71B9FD1F00976900577C9F /* PinkThumbPrint.png in Resources */,
+				1C07DCC41F07344800E2EBA2 /* BallFlower.png in Resources */,
+				1C07DCCE1F07F9AD00E2EBA2 /* HelpScene.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +361,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CACE2E71EA6E76E00CD7F23 /* NumberShape.swift in Sources */,
+				1C07DCCA1F07F67C00E2EBA2 /* Convenience.swift in Sources */,
 				1CACE2F21EA7BE0F00CD7F23 /* Methods.swift in Sources */,
 				1C71BA041F00980700577C9F /* ColorPicker.swift in Sources */,
 				1CFC89291F03E9E90095BAEF /* Styles.swift in Sources */,
 				1CE730BF1EA51855008083B4 /* Obsolecense_Management_Plan.xcdatamodeld in Sources */,
 				1CACE2E91EA6E86600CD7F23 /* Model.swift in Sources */,
 				1CE730B91EA51855008083B4 /* ViewController.swift in Sources */,
+				1C07DCC81F07EF1000E2EBA2 /* HelpView.swift in Sources */,
 				1CE730B71EA51855008083B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,12 +394,12 @@
 /* Begin PBXTargetDependency section */
 		1CE730CC1EA51855008083B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CE730B21EA51855008083B4 /* Obsolecense Management Plan */;
+			target = 1CE730B21EA51855008083B4 /* Counting Marbles */;
 			targetProxy = 1CE730CB1EA51855008083B4 /* PBXContainerItemProxy */;
 		};
 		1CE730D71EA51855008083B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1CE730B21EA51855008083B4 /* Obsolecense Management Plan */;
+			target = 1CE730B21EA51855008083B4 /* Counting Marbles */;
 			targetProxy = 1CE730D61EA51855008083B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -497,12 +521,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = U44FL526BD;
 				INFOPLIST_FILE = "Obsolecense Management Plan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NumberShapes.Obsolecense-Management-Plan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.numbershapes.firstnumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -510,12 +537,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = U44FL526BD;
 				INFOPLIST_FILE = "Obsolecense Management Plan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NumberShapes.Obsolecense-Management-Plan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.numbershapes.firstnumbers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -529,7 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "NumberShapes.Obsolecense-Management-PlanTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obsolecense Management Plan.app/Obsolecense Management Plan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting Marbles.app/Counting Marbles";
 			};
 			name = Debug;
 		};
@@ -543,7 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "NumberShapes.Obsolecense-Management-PlanTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obsolecense Management Plan.app/Obsolecense Management Plan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting Marbles.app/Counting Marbles";
 			};
 			name = Release;
 		};
@@ -576,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CE730AE1EA51855008083B4 /* Build configuration list for PBXProject "Obsolecense Management Plan" */ = {
+		1CE730AE1EA51855008083B4 /* Build configuration list for PBXProject "Counting Marbles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CE730DC1EA51855008083B4 /* Debug */,
@@ -585,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CE730DE1EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management Plan" */ = {
+		1CE730DE1EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting Marbles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CE730DF1EA51855008083B4 /* Debug */,
@@ -594,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CE730E11EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management PlanTests" */ = {
+		1CE730E11EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting MarblesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CE730E21EA51855008083B4 /* Debug */,
@@ -603,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CE730E41EA51855008083B4 /* Build configuration list for PBXNativeTarget "Obsolecense Management PlanUITests" */ = {
+		1CE730E41EA51855008083B4 /* Build configuration list for PBXNativeTarget "Counting MarblesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CE730E51EA51855008083B4 /* Debug */,

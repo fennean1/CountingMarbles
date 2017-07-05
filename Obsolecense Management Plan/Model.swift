@@ -9,32 +9,43 @@
 import Foundation
 import UIKit
 
+// Convenience:
 
-//// Assets
 
+var Balls: [touchableBall] = []
+
+var BallsInPlay = 14
+
+// UIElements
+
+var addBtn = UIButton()
+var subBtn = UIButton()
+
+var BallDim: CGFloat = 0
 
 // Initialize counter
 var counter = UIImage(named: "PurpleBall")
 
+var centerOfScreen: CGPoint!
 
 let BallArray = [BlueBall,OrangeBall,RedBall,GreenBall,PinkBall,PurpleBall]
 
 
-let BlueBall = UIImage(named: "BlueBall")
-let OrangeBall = UIImage(named: "OrangeBall")
-let RedBall = UIImage(named: "RedBall")
-let GreenBall = UIImage(named: "GreenBall")
-let PinkBall = UIImage(named: "PinkBall")
-let PurpleBall = UIImage(named: "PurpleBall")
+var colorSwitching = false
 
+var Split = false
 
-//// Math
-
-
+var counterimage = BlueBall
 
 var originalCoordinates: [CGPoint] = []
 
 var numbershapeViewOrigin: CGPoint!
+
+var a = 10
+var b = 4
+
+var Scattered = false
+
 
 // For convenience invoking common trig ratios.
 let COS30 = cosine(arg: Double.pi/6)
@@ -60,7 +71,10 @@ func ballsize(frame: CGSize) -> CGSize {
     
 }
 
+var NumberShapeFrame: CGRect!
 
+// Ball Radius
+var r: CGFloat!
 
 //// Animations
 let animationSpeed = 0.5

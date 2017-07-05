@@ -13,11 +13,47 @@ import UIKit
 
 extension UIButton {
     
-    func operatorBtnStyle(PlusMinus: String) {
+    func StyleAddBtn(container: CGRect) {
         
-        self.titleLabel?.font = UIFont(name: "ChalkBoard SE", size: 20)
-        self.titleLabel?.textColor = UIColor.blue
-        self.setTitle(PlusMinus, for: .normal)
+        var _frame: CGRect {
+            
+            let h = container.width/6
+            let w = h
+            let x = container.width -  h
+            let y = CGFloat(0)
+            
+            return CGRect(x: x, y: y, width: w, height: h)
+            
+        }
+        
+        
+        self.titleLabel?.font = UIFont(name: "ChalkBoard SE", size: 100)
+        self.setTitle("+", for: .normal)
+        self.setTitleColor(BLUE, for: .normal)
+        self.frame = _frame
+        
+        
+    }
+    
+    func StyleSubBtn(container: CGRect) {
+        
+        var _frame: CGRect {
+            
+            let h = container.width/6
+            let w = h
+            let x = CGFloat(0)
+            let y = CGFloat(0)
+            
+            return CGRect(x: x, y: y, width: w, height: h)
+            
+        }
+        
+        
+        self.titleLabel?.font = UIFont(name: "ChalkBoard SE", size: 100)
+        self.setTitle("-", for: .normal)
+        self.setTitleColor(UIColor.black, for: .normal)
+        self.frame = _frame
+        
         
     }
     

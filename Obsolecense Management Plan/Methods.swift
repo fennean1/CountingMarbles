@@ -9,26 +9,30 @@
 import Foundation
 import UIKit
 
-// Returns a cosine with type CGFloat for doing coordinate calculations
-func cosine(arg: Double)-> CGFloat {
+
+
+
+extension CGFloat {
     
-    return CGFloat(cos(arg))
+    
+    func randomAngle() -> CGFloat
+    {
+        let randomAngle = arc4random_uniform(UInt32(360))
+        
+        let randomRadians = Double(randomAngle)*Double.pi/180
+        
+        return CGFloat(randomRadians)
+    }
     
 }
 
-// Give the ballsize as a function of the frame. Optimally set to an eighth of the width
-func ballsize(frame: CGSize) -> CGSize {
-    
-    let h = frame.width/8
-    let w = h
-    
-return CGSize(width: h, height: w)
-    
-}
+
+
 
 
 // Offsets a particular point by another coordinate. Similar to adding function but only takes one argument for convenience.
 extension CGPoint {
+    
     
     mutating func offset(point: CGPoint) {
         
@@ -41,6 +45,34 @@ extension CGPoint {
     
 }
 
+func initBalls(number: Int,frame: CGRect) -> [touchableBall]
+{
+    
+    var _balls: [touchableBall] = []
+    
+    for _ in 1...number
+    {
+        
+        let newBall = touchableBall(frame: frame)
+        
+        _balls.append(newBall)
+    
+    }
+    
+    return _balls
+    
+}
+
+func initOriginalCoordinates()
+{
+    
+    for _ in 0...19
+    {
+        originalCoordinates.append(CGPoint(x: 0, y: 0))
+    }
+    
+}
+
 
 // get the coordinates for placing two numbers inside of the view
 func decompose(a:Int, b: Int,frame: CGSize) -> [CGPoint]
@@ -48,9 +80,11 @@ func decompose(a:Int, b: Int,frame: CGSize) -> [CGPoint]
     
     var p: [CGPoint] = []
     
+    // Read the containers dimensions for convenience
     let containerwidth = frame.width
     let containerheight = frame.height
     
+    // ballsize() in 'Helpers' - Calculates the size of a ball from a given frame.
     let ball = ballsize(frame: frame)
     
     
@@ -66,12 +100,15 @@ func decompose(a:Int, b: Int,frame: CGSize) -> [CGPoint]
     
     // Set of points for number 'a'
     let ap = numbershapeXY(a: a, frame: ball)
+    
     // Adjusted points for number 'a'
     let adjap = ap.flatMap({C in addPoints(a: C, b: aorigin)})
     
     
     // Set of points for number 'b'
     let bp = numbershapeXY(a: b, frame: ball)
+    
+    
     // Adjusted points for number 'b'
     let adjbp = bp.flatMap({C in addPoints(a: C, b: borigin)})
     
@@ -79,8 +116,7 @@ func decompose(a:Int, b: Int,frame: CGSize) -> [CGPoint]
     
     p = adjap + adjbp
     
-    print(p,"This is P")
-    
+  
     return p
     
 }
@@ -102,6 +138,22 @@ func addPoints(a: CGPoint,b: CGPoint) -> CGPoint {
 }
 
 
+
+// Defines an operation that adds two points together
+func subtractPoints(a: CGPoint,b: CGPoint) -> CGPoint {
+    
+    let ax = a.x
+    let ay = a.y
+    
+    let bx = b.x
+    let by = b.y
+    
+    return CGPoint(x: ax-bx,y: ay-by)
+    
+}
+
+
+
 // Arranges any number for viewing within a frame (may consist of more than one numbershapes i.e. two digit numbers & compositions)
 func numbershapeviewXY(a: Int, frame: CGSize)-> [CGPoint] {
     
@@ -109,14 +161,13 @@ func numbershapeviewXY(a: Int, frame: CGSize)-> [CGPoint] {
     
     let ball = ballsize(frame: frame)
     
-    switch a < 10 {
+    switch a <= 10 {
         
     case true:
     
     let shapeoffset = getShapeCenterOffset(a: a, ballsize: ball.width)
     
-    print(shapeoffset,"SHAPEOFFSET")
-    
+
     let shx = frame.width/2 - shapeoffset.x
     let shy = frame.height/2 - shapeoffset.y
     let offsetpoint = CGPoint(x: shx, y: shy)
@@ -127,10 +178,19 @@ func numbershapeviewXY(a: Int, frame: CGSize)-> [CGPoint] {
     
         
     case false:
+    
         
-    let o = a%10
-    let t = a-o
+    var o = a%10
+    var t = a-o
+    
         
+    if a == 20
+    {
+        o = 10
+        t = 10
+    }
+
+    
     c = decompose(a: t, b: o, frame: frame)
     
     }
@@ -152,6 +212,10 @@ func numbershapeXY(a: Int,frame: CGSize) -> [CGPoint] {
     switch a {
         
     // Coordinates for One Ball
+    case 0:
+        
+        c = []
+        
     case 1:
         
         // First Position
